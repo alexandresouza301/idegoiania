@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- bootstrap version 5 -->
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -27,7 +27,8 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/popover.css" rel="stylesheet">
-<style type="text/css">
+  
+<style type="text/css"> 
   .centro{
     margin-left: auto; margin-right: auto; display: flex;flex-direction: row;justify-content: center;align-items: center;
   }
@@ -37,8 +38,64 @@
   .linkcontato{
     color: #fff;    
     text-decoration: underline;
-    } 
-   
+    }  
+   .botaoarena{
+   margin-bottom: 5%;
+    background-color: transparent;
+    color: white;
+    border-color: white; 
+    border-radius: 30px;   
+   } 
+  
+    @media screen and (max-width:400px) {
+  .letra{
+    font-size:10px;    
+  } 
+  .recuo{
+    padding-left: 5%;
+    padding-right: 5%;
+   } 
+   .esconder{
+    visibility:hidden;
+    display: none;
+  } 
+} 
+@media screen and (min-width:401px) and (max-width:500px) {
+  .letra{
+    font-size:11px;  
+  } 
+  .recuo{
+    padding-left: 5%;
+    padding-right: 5%;
+   } 
+  .esconder{
+    visibility:hidden;
+    display: none;
+  } 
+}
+@media screen and (min-width:501px) and (max-width:600px) {
+  .letra{
+    font-size:14px;  
+  } 
+  .recuo{
+    padding-left: 5%;
+    padding-right: 5%;
+   } 
+   .esconder{
+    visibility:hidden;
+    display: none;
+  } 
+} 
+@media screen and (min-width:601px) {
+ .botaoarena{
+  display: none;
+ }
+} 
+@media screen and (max-width:601px) {
+ .divfaq{
+  display: none;
+ }
+} 
 </style>
 </head>
 
@@ -49,7 +106,7 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div id="logo">
-        <a href="#"><img src="assets/img/Ticket Gospel Logo branco.png" alt="" style="max-width: 70%;"></a>        
+        <a href="#"><img src="assets/img/logos.png" alt="" style="max-width: 70%;"></a>        
       </div>
 
       <nav id="navbar" class="navbar">
@@ -57,7 +114,8 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Sobre</a></li>                  
           <li><a class="nav-link scrollto" href="#team">Convidados</a></li>  
-          <li><a class="nav-link scrollto" href="#about1">Arena</a></li>        
+          <li><a class="nav-link scrollto" href="#about1">Arena</a></li>  
+          <li><a class="nav-link scrollto" href="#about12">FAQ</a></li>      
           <li><a class="nav-link scrollto" href="#conta">Contato</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -69,8 +127,8 @@
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
       <img src="assets/img/ide_logo_branco.png" alt="" style="max-width: 70%;">
-      <h2>Conectando idéias e inspirando o futuro</h2>
-      <a href="#about" target="_blank" class="btn-get-started">Faça sua Inscrição</a>
+      <h2>Conectando ideias e inspirando o futuro</h2>
+      <a href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" class="btn-get-started">Faça sua Inscrição</a>
     </div>
   </section><!-- End Hero Section -->
 
@@ -82,8 +140,8 @@
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">Sobre a Confêrencia</h2>
-            <p>
+            <h2 class="title recuo">Sobre a Conferência</h2>
+            <p class="recuo">
               A conferência com o tema "Ide" é um evento inspirador e motivador que busca promover a missão cristã de compartilhar o evangelho ao redor do mundo. Baseado no versículo bíblico de Marcos 16:15, o objetivo principal é encorajar os participantes a saírem de suas zonas de conforto e se envolverem ativamente na obra evangelística.
 <br>
               Durante a conferência, renomados líderes religiosos e missionários compartilham suas experiências e testemunhos pessoais, destacando a importância da obediência ao chamado de Cristo de pregar o evangelho. Eles discutem estratégias práticas para alcançar pessoas de diferentes culturas, contextos e grupos sociais, enfatizando a necessidade de adaptar a mensagem do evangelho para torná-la relevante e acessível a todas as criaturas.
@@ -102,11 +160,11 @@
       <div class="container">
         <div class="row" data-aos="zoom-in">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3 class="cta-title">Garanta sua inscriçao</h3>
-            <p class="cta-text"> Por meio de momentos de louvor, adoração e oração, a conferência busca fortalecer a fé dos participantes, encorajando-os a viverem vidas transformadas pelo evangelho e a compartilharem essa mensagem de esperança e salvação com aqueles ao seu redor.</p>
+            <h3 class="cta-title recuo">Garanta sua inscriçao</h3>
+            <p class="cta-text recuo"> Por meio de momentos de louvor, adoração e oração, a conferência busca fortalecer a fé dos participantes, encorajando-os a viverem vidas transformadas pelo evangelho e a compartilharem essa mensagem de esperança e salvação com aqueles ao seu redor.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#" target="_blank" >Faça sua Inscrição</a>
+            <a class="cta-btn align-middle" href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" >Faça sua Inscrição</a>
           </div>
         </div>
 
@@ -165,91 +223,95 @@
             <img src="assets/img/ide_logo_branco.png" style="margin-top: 20%; max-width: 100%;">
           </div>
         </div>
-
+        
+        <div class="col-lg-3 cta-btn-container text-center">
+          <a class="btn btn-primary btn-lg botaoarena" href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" >Faça sua Inscrição</a>
+        </div>
+        
       </div>
     </section><!-- End arena Section -->
 
      <!-- ======= arena 2 Section ======= -->
-     <section id="arena">
-      <div class="container" data-aos="fade-up">       
+     <section id="arena" class="esconder">
+      <div class="container esconder" data-aos="fade-up">       
         <div class="row" style="margin-top: 3%; padding-left: 15%;">
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-2 col-md-6 col-sm-3 col-2">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class=""><img class="" src="assets/img/tic_branco.png" alt="" style="max-width: 40%;"></div>
-              <h4>Área Vip</h4>                          
+              <h4 class="letra">Área Vip</h4>                          
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-2 col-md-6 col-sm-3 col-2">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class=""><img src="assets/img/tic_yellow.png" alt="" style="max-width: 40%;" ></div>
-              <h4>Setor Ouro</h4>         
+              <h4 class="letra">Setores Ouro</h4>         
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-2 col-md-6 col-sm-3 col-2">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="pic"><img src="assets/img/tic_red.png" alt="" style="max-width: 40%;"></div>
-              <h4>Setor Vermelho</h4>          
+              <h4 class="letra">Setores Vermelho</h4>          
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-2 col-md-6 col-sm-3 col-2">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="pic"><img src="assets/img/tic_verde.png" alt="" style="max-width: 40%;"></div>
-              <h4>Setor Verde</h4>          
+              <h4 class="letra">Setores Verde</h4>          
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-2 col-md-6 col-sm-3 col-2">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="pic"><img src="assets/img/tic_ciano.png" alt="" style="max-width: 40%;"></div>
-              <h4>Arquibancada</h4>          
+              <h4 class="letra">Arquibancada</h4>          
             </div>
           </div>
         
         </div>
-        <div class="row" style="margin-top: 3%;">
+        <div class="row esconder" style="margin-top: 3%;">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3840 2160">
             <image width="3840" height="2160" xlink:href="assets/img/mapa.png" style="max-width: 80%;"></image>
-             <a xlink:href="#vip" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 160,00" data-bs-title="Área VIP"  data-bs-custom-class="custom-popover-vip"   >
+             <a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 160,00" data-bs-title="Área VIP"  data-bs-custom-class="custom-popover-vip"   >
               <rect x="1993" y="716" fill="#fff" opacity="0" width="283" height="721"></rect>
             </a>
-            <a xlink:href="#vermelhoe" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 90,00" data-bs-title="Setor Vermelho" data-bs-custom-class="custom-popover-red">
+            <a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 90,00" data-bs-title="Setor Vermelho" data-bs-custom-class="custom-popover-red">
               <rect x="1648" y="472" fill="#fff" opacity="0" width="569" height="204"></rect>
-            </a><a xlink:href="#vermelhod" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 90,00" data-bs-title="Setor Vermelho"  data-bs-custom-class="custom-popover-red">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 90,00" data-bs-title="Setor Vermelho"  data-bs-custom-class="custom-popover-red">
               <rect x="1644" y="1476" fill="#fff" opacity="0" width="568" height="217"></rect>
-            </a><a xlink:href="#amarelo" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 120,00" data-bs-title="Setor Ouro"  data-bs-custom-class="custom-popover-ouro" data-bs-placement="left" >
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 120,00" data-bs-title="Setor Ouro"  data-bs-custom-class="custom-popover-ouro" data-bs-placement="left" >
               <rect x="1710" y="714" fill="#fff" opacity="0" width="277" height="721"></rect>
-            </a><a xlink:href="#amarelo" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 120,00" data-bs-title="Setor Ouro"  data-bs-custom-class="custom-popover-ouro" data-bs-placement="right">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 120,00" data-bs-title="Setor Ouro"  data-bs-custom-class="custom-popover-ouro" data-bs-placement="right">
               <rect x="1434" y="918" fill="#fff" opacity="0" width="274" height="319"></rect>
-            </a><a xlink:href="#ciano" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
               <rect x="1386" y="1798" fill="#fff" opacity="0" width="620" height="290"></rect>
-            </a><a xlink:href="#ciano" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
               <rect x="706" y="560" fill="#fff" opacity="0" width="370" height="1060"></rect>
-            </a><a xlink:href="#ciano" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
               <rect x="1324" y="60" fill="#fff" opacity="0" width="676" height="322"></rect>
-            </a><a xlink:href="#verde" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 70,00" data-bs-title="Setor Verde"  data-bs-custom-class="custom-popover-verde" data-bs-placement="left">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 70,00" data-bs-title="Setor Verde"  data-bs-custom-class="custom-popover-verde" data-bs-placement="left">
               <rect x="1166" y="732" fill="#fff" opacity="0" width="244" height="702"></rect>
-            </a><a xlink:href="#verde" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 70,00" data-bs-title="Setor Verde"  data-bs-custom-class="custom-popover-verde" data-bs-placement="bottom">
-              <rect x="1364" y="1366" fill="#fff" opacity="0" width="258" height="198"></rect>
-            </a><a xlink:href="#verde" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 70,00" data-bs-title="Setor Verde"  data-bs-custom-class="custom-popover-verde" data-bs-placement="top">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 70,00" data-bs-title="Setor Verde"  data-bs-custom-class="custom-popover-verde" data-bs-placement="bottom">
+              <rect x="1364" y="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" fill="#fff" opacity="0" width="258" height="198"></rect>
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 70,00" data-bs-title="Setor Verde"  data-bs-custom-class="custom-popover-verde" data-bs-placement="top">
               <rect x="1378" y="592" fill="#fff" opacity="0" width="270" height="182"></rect>
-            </a><a xlink:href="#amarelo" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 120,00" data-bs-title="Setor Ouro"  data-bs-custom-class="custom-popover-ouro" >
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 120,00" data-bs-title="Setor Ouro"  data-bs-custom-class="custom-popover-ouro" >
               <rect x="1536" y="792" fill="#fff" opacity="0" width="172" height="556"></rect>
-            </a><a xlink:href="#ciano" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
               <rect x="920" y="378" fill="#fff" opacity="0" width="490" height="184"></rect>
-            </a><a xlink:href="#ciano" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
               <rect x="932" y="1606" fill="#fff" opacity="0" width="534" height="134"></rect>
-            </a><a xlink:href="#ciano" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
               <rect x="1094" y="230" fill="#fff" opacity="0" width="238" height="152"></rect>
-            </a><a xlink:href="#ciano" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
               <rect x="1080" y="560" fill="#fff" opacity="0" width="194" height="126"></rect>
-            </a><a xlink:href="#ciano" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
               <rect x="1234" y="1738" fill="#fff" opacity="0" width="310" height="252"></rect>
-            </a><a xlink:href="#ciano" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
               <rect x="1074" y="1472" fill="#fff" opacity="0" width="200" height="138"></rect>
-            </a><a xlink:href="#ciano" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
+            </a><a xlink:href="https://ticketgospel.com.br/eventos/ide-conference-conectando-ideias-e-inspirando-o-futuro/" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="R$ 45,00" data-bs-title="Arquibancada"  data-bs-custom-class="custom-popover-ciano" data-bs-placement="left">
               <rect x="1062" y="1734" fill="#fff" opacity="0" width="192" height="174"></rect>
             </a>
           </svg>
@@ -259,6 +321,191 @@
       </div>
     
     </section><!-- End arena 2 Section -->
+
+ <!-- ======= Divisor Section ======= -->
+ <section id="about12" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/img/action.jpg) fixed center center;margin-top: 3%;">
+  <div class="container divfaq" data-aos="fade-up">
+    <div class="row about-container">
+
+      <div class="col-lg-6 order-lg-1 order-2">
+        
+       <img src="assets/img/prs_png.png" style="max-width: 80%;">
+
+      </div>
+
+      <div class="col-lg-6 order-lg-2 order-1" data-aos="fade-left" data-aos-delay="100">
+        <img src="assets/img/ide_logo_branco.png" style="margin-top: 20%; max-width: 100%;">
+      </div>
+    </div>
+        
+    
+  </div>
+</section><!-- End Divisor Section -->
+
+
+    <!-- ======= FAQ Section ======= -->
+    <section id="FAQ">
+      <div class="container" data-aos="fade-up" style="margin-top: 3%;">
+        <div class="section-header">
+          <h3 class="section-title" style="color: #7d2671;">Dúvidas Frequentes</h3>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"  data-bs-custom-class="custom-accordion">
+                  Por que o evento é COBRADO?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Devido aos controles de acesso e segurança, custos de estrutura e deslocamento dos ministros e bandas, o valor de cada lote de ingresso foi calculado levando em consideração os custos de todo o evento. Os ingressos não têm fins lucrativos e visam cobrir apenas os custos logísticos e operacionais. </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Existe a possibilidade de comprar MEIA ENTRADA?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Não há meia-entrada disponível para este evento. A Ide Conference esclarece que não se enquadra na lei 12.933/2013, mais conhecida como a lei federal da meia-entrada, uma vez que promove cultos de ministração religiosa e conferências de natureza semelhante. Além disso, o artigo 1º da referida lei estabelece a meia-entrada para estudantes somente em cinemas, teatros, espetáculos musicais, esportivos, de lazer e entretenimento em todo o território nacional, como mencionado a seguir: "ART. 1º É assegurado aos estudantes o acesso a salas de cinema, cineclubes, teatros, espetáculos musicais e circenses e eventos educativos, esportivos, de lazer e de entretenimento, em todo o território nacional, promovidos por quaisquer entidades e realizados em estabelecimentos públicos ou particulares, mediante pagamento da metade do preço do ingresso efetivamente cobrado do público em geral.”</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Qual a IDADE MÍNIMA dos participantes? Posso levar CRIANÇAS?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Não haverá programação especial destinada a crianças durante o dia do evento, portanto, NÃO RECOMENDAMOS a participação de crianças com menos de 10 anos. No caso em que um participante queira levar uma criança menor de 10 anos, elas deverão ser inscritas normalmente pelo preço do lote atual, com exceção de bebês de colo com menos de 2 anos acomodados em carrinhos de bebê. Não haverá desconto especial com base na idade, pois entendemos que ocuparão um assento como os demais participantes.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                  Os ASSENTOS serão reservados?
+                </button>
+              </h2>
+              <div id="flush-collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Os participantes poderão ocupar os lugares disponíveis por ordem de chegada. A diferença no valor da inscrição será apenas a localização conforme mapa do local </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+                  Quais serão os HORÁRIOS das ministrações?
+                </button>
+              </h2>
+              <div id="flush-collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">A relação dos horários das ministrações de cada preletor ou banda participante não será divulgada antecipadamente. Somente os inscritos terão acesso aos horários durante o evento. No entanto, você pode conferir a programação geral aqui mesmo no site.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapsesix">
+                  Existem CARAVANAS para o evento?
+                </button>
+              </h2>
+              <div id="flush-collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Não temos uma caravana oficial do evento. Cada pessoa é responsável por organizar sua própria caravana, caso deseje. </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapseseven" aria-expanded="false" aria-controls="flush-collapseseven">
+                  O local é adequado para pessoas com DEFICIÊNCIA?
+                </button>
+              </h2>
+              <div id="flush-collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Todos os locais da IDE CONFERENCE são totalmente acessíveis e preparados para pessoas com necessidades especiais (PNE).</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapseeight" aria-expanded="false" aria-controls="flush-collapseeight">
+                  Como funcionará a ALIMENTAÇÃO?
+                </button>
+              </h2>
+              <div id="flush-collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">O pagamento da taxa de inscrição não inclui alimentação. Haverá pontos de venda de alimentos e bebidas em cada local do evento e nas proximidades.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapsenine" aria-expanded="false" aria-controls="flush-collapsenine">
+                  O estacionamento é pago?
+                </button>
+              </h2>
+              <div id="flush-collapsenine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">O estacionamento no local é gratuito.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapseten" aria-expanded="false" aria-controls="flush-collapseten">
+                  Tenho direito a HOSPEDAGEM e TRANSPORTE?
+                </button>
+              </h2>
+              <div id="flush-collapseten" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">O pagamento da taxa de inscrição não dá direito à hospedagem, transporte ou traslado para o evento.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapseeleven" aria-expanded="false" aria-controls="flush-collapseeleven">
+                  Posso FILMAR ou FOTOGRAFAR o evento?
+                </button>
+              </h2>
+              <div id="flush-collapseeleven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">É permitido apenas o uso de celular pessoal. Não será permitido o acesso ao local com câmeras profissionais para fotografia ou filmagem. Ninguém está autorizado a alterar, editar ou publicar qualquer vídeo ou áudio deste conteúdo, total ou parcialmente, em qualquer meio de comunicação ou redes sociais, sem a autorização explícita e por escrito do ministério organizador. Qualquer forma de publicação ou distribuição constitui violação dos direitos autorais e estará sujeita a penalidades legais. Aparecer em um vídeo, imagem ou gravação de áudio não concede direitos autorais sobre esse conteúdo. Portanto, é estritamente proibida a cópia ou reprodução desta obra sem a devida autorização.</div>
+              </div>
+            </div>
+            <h3 class="section-title" style="color: #7d2671;margin-top: 2%;">Check-in e inscrições</h3>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwelve" aria-expanded="false" aria-controls="flush-collapsetwelve">
+                  Como REIMPRIMIR o comprovante de inscrição?
+                </button>
+              </h2>
+              <div id="flush-collapsetwelve" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Caso não receba o e-mail de confirmação da sua inscrição, que é enviado automaticamente após você concluir o preenchimento do formulário, por favor, verifique sua pasta de SPAM. Se ainda assim não conseguir localizar sua inscrição, entre em contato conosco pelo e-mail <code><a href="https://ticketgospel.com.br/contato/" target="_blank"> contato@ticketgospel.com.br</a> </code>ou pelo nosso chat de atendimento disponível em nosso site <code><a href="https://ticketgospel.com.br/" target="_blank"> ticketgospel.com.br</a> </code>, para que possamos enviar uma segunda via.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirteen" aria-expanded="false" aria-controls="flush-collapsethirteen">
+                  Quando e como acontecerá o CHECK-IN?
+                </button>
+              </h2>
+              <div id="flush-collapsethirteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Com o objetivo de evitar filas, o check-in terá início às 17h horas, no dia 23 de novembro de 2023. O evento está programado para começar às 20 horas. Para agilizar sua entrada, é necessário que você leve o ingresso impresso ou apresente o QR Code em seu smartphone. </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourteen" aria-expanded="false" aria-controls="flush-collapsefourteen">
+                  Como funciona o CANCELAMENTO e o REEMBOLSO?
+                </button>
+              </h2>
+              <div id="flush-collapsefourteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Os ingressos podem ser cancelados somente dentro do prazo de 7 (sete) dias a partir da data da compra, conforme estipulado no Código de Defesa do Consumidor. Após esse período, os ingressos só podem ser transferidos e não serão reembolsados. Para solicitar o cancelamento, envie um e-mail contato@ticketgospel.com.br com seu nome completo, CPF e os ingressos para os quais deseja solicitar o cancelamento. O reembolso por cancelamento será processado em até 30 dias após o recebimento da solicitação. A ausência no evento não dá direito ao reembolso da inscrição.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" style="--bs-accordion-active-bg:#cb46b9;--bs-accordion-active-color: white; --bs-accordion-btn-focus-box-shadow: #7d2671;--bs-accordion-btn-color: #7d2671;font-weight: bold;" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifteen" aria-expanded="false" aria-controls="flush-collapsefifteen">
+                  Haverá venda de INGRESSOS NO DIA do evento?
+                </button>
+              </h2>
+              <div id="flush-collapsefifteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Somente mediante disponibilidade de vagas. </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section><!-- End FAQ Section -->
+
 
  <!-- Uncomment below if you wan to use dynamic maps -->
      
@@ -281,7 +528,7 @@
         <a href="https://www.instagram.com/ticketgospel/" target="_blank" class="instagram margemsocial"><i class="bi bi-instagram margemsocial"></i></a>              
       </div> 
 
-      <img class="centro" src="assets/img/Ticket Gospel Logo branco.png" alt="" style="max-width: 70%;" > 
+      <img class="centro" src="assets/img/logos.png" alt="" style="max-width: 70%;" > 
       
     </section><!-- End Contact Section -->
 
