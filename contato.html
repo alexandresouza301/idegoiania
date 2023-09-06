@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Contato Caravana</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/tic_branco.png" rel="icon">
+  <link href="assets/img/tic_branco.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style type="text/css"> 
+    .centro{
+      margin-left: auto; margin-right: auto; display: flex;flex-direction: row;justify-content: center;align-items: center;
+    }
+    .bredonda{
+        border-radius: 25% 25% 25% 25%;
+    }
+    .btn1-get-started:hover {
+  background: #7d2671;
+  border: 2px solid #fff;
+}
+.botaocontato{   
+    background-color: transparent;
+    color: white;
+    border-color: white; 
+    border-radius: 30px;   
+   } 
+    
+ @media screen and (max-width:400px) {
+    .tamfundform{
+        width: 100%; 
+    }
+} 
+@media screen and (min-width:401px) and (max-width:500px) {
+    .tamfundform{
+        width: 80%; 
+    }
+}
+@media screen and (min-width:501px) and (max-width:600px) {
+    .tamfundform{
+        width: 80%; 
+    }
+} 
+@media screen and (min-width:601px) and (max-width:1999px) {
+    .tamfundform{
+        width: 80%; 
+    }
+} 
+@media screen and (min-width:2000px) {
+    .tamfundform{
+        width: 40%; 
+    }
+} 
+
+  </style> 
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div id="logo" class="centro">
+        <a href="index.html"  class="centro"><img src="assets/img/logos.png" alt="" style="max-width: 70%;"></a>
+      </div>
+     
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+ <section id="hero">
+     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+
+
+          <section id="contact" class="tamfundform" style="background-color: rgba(0, 0, 0, 0.1);  ">
+            <div class="container">
+              <div class="section-header">
+                <h3 class="section-title" style="color: white;">Contato para Caravanas</h3>
+                <p class="section-description" style="color: white;"> Leia o &nbsp <a class="btn btn-primary btn-lg botaocontato btn1-get-started" href="./doc/Manual_Caravana_Ide_Conference_Goiania.pdf" target="_blank" >Manual</a> &nbsp antes de enviar uma mesnagem</p>               
+                           
+              </div>
+            </div>
+      
+            
+            <div class="container mt-4">
+              <div class="row justify-content-center">
+      
+               
+      
+                <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                  <div class="form">
+                    <form action="enviar.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data" >
+                      <div class="form-group">
+                        <input type="text" name="name" class="form-control" style=" border-radius: 10px ;" id="name" placeholder="Seu nome" required>
+                      </div>
+                      <div class="form-group mt-3">
+                        <input type="email" class="form-control" style=" border-radius: 10px ;" name="email" id="email" placeholder="Seu Email" required>
+                      </div>                     
+                      <div class="form-group mt-3">
+                        <textarea class="form-control"name="message" style=" border-radius: 10px ;" rows="10" placeholder="Leia o manual antes de enviar" required></textarea>
+                      </div>
+                      <div class="form-group" style="color: white;margin-top: 4%; margin-bottom: 4%;">
+                        <label for="exampleFormControlFile1">Anexar  &nbsp &nbsp &nbsp </label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1" name="exampleFormControlFile1">
+                      </div>
+                      <div class="my-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Mensagem enviada com sucesso. Obrigado!</div>
+                      </div>
+                      <div class="text-center"><button type="submit" style=" border-radius: 10px ;">Enviar Mensagem</button></div>
+                    </form>
+                  </div>
+                </div>
+      
+              </div>
+      
+            </div>
+          </section><!-- End Contact Section -->
+
+
+    </div>
+  </section><!-- End Hero Section -->
+
+ 
+
+ 
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
